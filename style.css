@@ -1396,3 +1396,8 @@ img {
   text-decoration: underline;
 }
 
+.publication-large {
+  max-width: 700px;
+  width: 100%;
+  height: auto;
+}
