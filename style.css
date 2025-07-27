@@ -1355,3 +1355,44 @@ img {
     font-size: 0.8rem;
   }
 }
+
+.publication-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.publication-image {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  border-color: #4895ef;
+  object-fit: cover;
+}
+
+.publication-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.publication-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.publication-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: #007bff;
+  text-decoration: underline;
+}
+
